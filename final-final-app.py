@@ -173,7 +173,7 @@ def openai_generate_plan(api_key: str, input_won: dict[str, Any]) -> dict[str, A
     }
 
     resp = client.responses.create(
-        model="gpt-4.1-mini",
+        model="GPT-4o mini",
         input=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": json.dumps(user_prompt, ensure_ascii=False)},
