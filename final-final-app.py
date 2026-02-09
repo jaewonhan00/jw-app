@@ -719,7 +719,7 @@ def _render_plan(plan: dict[str, Any]) -> None:
 
 def main() -> None:
     st.set_page_config(page_title="절약 플래너", layout="wide")
-    st.title("돈은 없어도 거지처럼 살고 싶지는 않다")
+    st.title("절약 플래너")
     st.write(
         "절약은 좋지만, 무조건 절약하다보면 삶의 품질이 매우 저하되기 마련입니다. 여러분의 현재 소비액과 절약 목표를 넣어 "
         "그것이 실현 가능한 목표인지, 그 목표를 이루기 위해서는 한 달 동안 어떻게 살아야 하는지 알아보세요.\n\n"
